@@ -6,17 +6,16 @@ import sound1 from "./sounds/smite-league-of-legends-made-with-Voicemod.mp3";
 import sound2 from "./sounds/the-weeknd-rizzz.mp3";
 
 const sounds = [
-  {
-    name: "Sound 1",
-    file: sound1,
-  },
-  { name: "Sound 2", file: sound2 },
+  { name: "Smite", file: sound1 },
+  { name: "Rizz", file: sound2 },
+  { name: "Test shit 3", file: sound1 },
+  { name: "Test shit 4", file: sound2 },
 ];
 
 const Soundboard: React.FC = () => {
   return (
     <div style={{ textAlign: "center", padding: "20px" }}>
-      <h1>Soundboard</h1>
+      <h1>Emils geniale Soundboard</h1>
       {sounds.map((sound, index) => (
         <button
           key={index}
