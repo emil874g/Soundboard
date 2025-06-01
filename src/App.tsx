@@ -39,6 +39,8 @@ const Soundboard: React.FC = () => {
           className="add-sound-input"
           required
         />
+
+        
         <input
           type="file"
           accept="audio/*"
