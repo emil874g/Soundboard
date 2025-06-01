@@ -1,0 +1,85 @@
+/* Modern, sleek soundboard styles */
+body {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.soundboard-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: rgba(30, 30, 40, 0.95);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 32px 24px 40px 24px;
+  text-align: center;
+}
+
+.soundboard-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  letter-spacing: 1px;
+  color: #ffb347;
+  text-shadow: 0 2px 8px #000a;
+}
+
+.soundboard-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.soundboard-btn {
+  background: linear-gradient(90deg, #ffb347 0%, #ffcc33 100%);
+  color: #232526;
+  border: none;
+  border-radius: 16px;
+  padding: 18px 36px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 16px 0 rgba(255, 179, 71, 0.2);
+  transition: transform 0.1s, box-shadow 0.1s, background 0.2s;
+}
+.soundboard-btn:hover {
+  background: linear-gradient(90deg, #ffcc33 0%, #ffb347 100%);
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 8px 24px 0 rgba(255, 179, 71, 0.3);
+}
+
+.add-sound-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.add-sound-input {
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background: #232526;
+  color: #fff;
+  outline: none;
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.07);
+  transition: box-shadow 0.2s;
+}
+.add-sound-input:focus {
+  box-shadow: 0 4px 16px 0 rgba(255, 179, 71, 0.2);
+}
+
+.add-sound-btn {
+  background: linear-gradient(90deg, #36d1c4 0%, #ffb347 100%);
+  color: #232526;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: 12px;
+  margin-left: 8px;
+}
+.add-sound-btn:hover {
+  background: linear-gradient(90deg, #ffb347 0%, #36d1c4 100%);
+}
